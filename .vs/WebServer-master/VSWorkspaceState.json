@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "本地计算机": [
+      "WebServer-master\\out\\build\\x64-Debug",
+      "WebServer-master\\out\\install\\x64-Debug"
+    ]
+  }
+}
