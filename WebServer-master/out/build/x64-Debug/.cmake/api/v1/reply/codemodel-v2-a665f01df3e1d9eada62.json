@@ -1,0 +1,157 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "WebServer",
+					"childIndexes" : 
+					[
+						2,
+						4
+					],
+					"jsonFile" : "directory-WebServer-Debug-2007185fbf986ed5f48e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "WebServer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "WebServer/base",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-WebServer.base-Debug-9a4882f17aa6506032b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "WebServer/base",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "WebServer/base/tests",
+					"jsonFile" : "directory-WebServer.base.tests-Debug-d2a0f941a84fcb160760.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "WebServer/base/tests",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "WebServer/tests",
+					"jsonFile" : "directory-WebServer.tests-Debug-302c6540e830bbbd1134.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "WebServer/tests",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "WebServer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "HTTPClient::@db73784bfb6252a8a93b",
+					"jsonFile" : "target-HTTPClient-Debug-c9674bf2af64df97f40c.json",
+					"name" : "HTTPClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "LoggingTest::@39786a75b0bd06075437",
+					"jsonFile" : "target-LoggingTest-Debug-41150bc9299275eca285.json",
+					"name" : "LoggingTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "WebServer::@dbf45654fd97f6e599d0",
+					"jsonFile" : "target-WebServer-Debug-485d564d8fd76ac4d197.json",
+					"name" : "WebServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "libserver_base::@5a67b0a44b3e32255f64",
+					"jsonFile" : "target-libserver_base-Debug-9362de6f940bd63bac2f.json",
+					"name" : "libserver_base",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u65b0\u684c\u9762/NEUQ/C++\u4ee3\u7801\u5b66\u4e60/\u6e90\u7801/WebServer-light/WebServer-master/out/build/x64-Debug",
+		"source" : "D:/\u65b0\u684c\u9762/NEUQ/C++\u4ee3\u7801\u5b66\u4e60/\u6e90\u7801/WebServer-light/WebServer-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
